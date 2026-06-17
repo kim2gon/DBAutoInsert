@@ -15,9 +15,10 @@
     <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <Import Project="$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.23\build\Microsoft.NET.ILLink.Tasks.props" Condition="Exists('$(NuGetPackageRoot)microsoft.net.illink.tasks\8.0.23\build\Microsoft.NET.ILLink.Tasks.props')" />
+    <Import Project="$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\EntityFramework.props" Condition="Exists('$(NuGetPackageRoot)entityframework\6.4.4\buildTransitive\EntityFramework.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NET_ILLink_Tasks Condition=" '$(PkgMicrosoft_NET_ILLink_Tasks)' == '' ">C:\Users\aa\.nuget\packages\microsoft.net.illink.tasks\8.0.23</PkgMicrosoft_NET_ILLink_Tasks>
+    <PkgEntityFramework Condition=" '$(PkgEntityFramework)' == '' ">C:\Users\aa\.nuget\packages\entityframework\6.4.4</PkgEntityFramework>
+    <PkgSystem_Data_SQLite_EF6 Condition=" '$(PkgSystem_Data_SQLite_EF6)' == '' ">C:\Users\aa\.nuget\packages\system.data.sqlite.ef6\1.0.118</PkgSystem_Data_SQLite_EF6>
   </PropertyGroup>
 </Project>

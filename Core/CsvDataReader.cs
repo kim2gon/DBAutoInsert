@@ -1,39 +1,61 @@
 using CsvHelper;
 using CsvHelper.Configuration;
+using System;
+using System.Collections.Generic;
 using System.Globalization;
+using System.IO;
+using System.Linq;
+using System.Text;
 
-namespace DbAutoInsert.Core;
-
-public static class CsvDataReader
+namespace DbAutoInsert.Core
 {
-    /// <summary>«Ï¥ıøÕ µ•¿Ã≈Õ «‡¿ª «‘≤≤ π›»Ø</summary>
-    public static (List<Dictionary<string, string>> Rows, List<string> Headers) ReadWithHeaders(string filePath)
+    public static class CsvDataReader
     {
-        var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+        public static Tuple<List<Dictionary<string, string>>, List<string>> ReadWithHeaders(string filePath)
         {
-            HasHeaderRecord = true,
-            TrimOptions = TrimOptions.Trim,
-            MissingFieldFound = null,
-            BadDataFound = null
-        };
+            var config = new CsvConfiguration(CultureInfo.InvariantCulture)
+            {
+                HasHeaderRecord   = true,
+                TrimOptions       = TrimOptions.Trim,
+                MissingFieldFound = null,
+                BadDataFound      = null
+            };
 
-        using var reader = new StreamReader(filePath, System.Text.Encoding.UTF8);
-        using var csv = new CsvHelper.CsvReader(reader, config);
+            var raw  = File.ReadAllBytes(filePath);
+            var text = Encoding.UTF8.GetString(raw)
+                           .Replace("\r\n", "\n")
+                           .Replace("\r", "\n");
 
-        csv.Read();
-        csv.ReadHeader();
-        var headers = (csv.HeaderRecord ?? Array.Empty<string>())
-                      .Select(h => h.Trim().ToUpperInvariant())  // «Ï¥ı ¥ÎπÆ¿⁄ ≈Î¿œ
-                      .ToList();
+            using (var sr = new StringReader(text))
+            using (var csv = new CsvHelper.CsvReader(sr, config))
+            {
+                csv.Read();
+                csv.ReadHeader();
 
-        var rows = new List<Dictionary<string, string>>();
-        while (csv.Read())
-        {
-            var row = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
-            foreach (var h in headers)
-                row[h] = csv.GetField(h) ?? string.Empty;
-            rows.Add(row);
+                // ÏõêÎ≥∏ Ìó§Îçî (ÏÜåÎ¨∏Ïûê Í∑∏ÎåÄÎ°ú) Î≥¥Ï°¥
+                var originalHeaders = (csv.HeaderRecord ?? Array.Empty<string>())
+                                      .Select(h => h.Trim())
+                                      .ToList();
+
+                // ÎåÄÎ¨∏Ïûê Ìó§Îçî (Oracle Ïª¨ÎüºÎ™ÖÏö©)
+                var upperHeaders = originalHeaders
+                                   .Select(h => h.ToUpperInvariant())
+                                   .ToList();
+
+                var rows = new List<Dictionary<string, string>>();
+                while (csv.Read())
+                {
+                    var row = new Dictionary<string, string>(StringComparer.OrdinalIgnoreCase);
+                    for (int i = 0; i < originalHeaders.Count; i++)
+                    {
+                        // ÏõêÎ≥∏ Ìó§ÎçîÎ™ÖÏúºÎ°ú Í∞í Í∞ÄÏ†∏ÏôÄÏÑú ÎåÄÎ¨∏Ïûê ÌÇ§Î°ú Ï†ÄÏû•
+                        var val = (csv.GetField(originalHeaders[i]) ?? string.Empty).Trim();
+                        row[upperHeaders[i]] = val;
+                    }
+                    rows.Add(row);
+                }
+                return Tuple.Create(rows, upperHeaders);
+            }
         }
-        return (rows, headers);
     }
 }
