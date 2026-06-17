@@ -49,7 +49,7 @@ public class DbEngine
         if (Directory.Exists(sqlDir))
         {
             var sqlFiles = Directory.GetFiles(sqlDir, "*.*")
-                .Where(f => Path.GetExtension(f).ToLowerInvariant() == ".sql")
+                .Where(f => new[] { ".sql", ".txt" }.Contains(Path.GetExtension(f).ToLowerInvariant()))
                 .OrderBy(f => f)
                 .ToList();
 
