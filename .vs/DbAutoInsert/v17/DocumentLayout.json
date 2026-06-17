@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:app.manifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
@@ -18,32 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DbAutoInsert",
-              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
-              "RelativeDocumentMoniker": "DbAutoInsert.csproj",
-              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
-              "RelativeToolTip": "DbAutoInsert.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-17T07:03:36.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "app.manifest",
-              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\app.manifest",
-              "RelativeDocumentMoniker": "app.manifest",
-              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\app.manifest",
-              "RelativeToolTip": "app.manifest",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
-              "WhenOpened": "2026-06-17T07:02:53.495Z",
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAALYAAAAAAAAAAAAQwM0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2026-06-17T07:09:11.636Z",
               "EditorCaption": ""
             },
             {
@@ -57,6 +48,32 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DbAutoInsert.csproj",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
+              "RelativeDocumentMoniker": "DbAutoInsert.csproj",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
+              "RelativeToolTip": "DbAutoInsert.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvx0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-17T07:03:36.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.manifest",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\app.manifest",
+              "RelativeDocumentMoniker": "app.manifest",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\app.manifest",
+              "RelativeToolTip": "app.manifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001203|",
+              "WhenOpened": "2026-06-17T07:02:53.495Z",
+              "EditorCaption": ""
             }
           ]
         },
