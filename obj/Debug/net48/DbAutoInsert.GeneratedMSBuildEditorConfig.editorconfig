@@ -1,6 +1,6 @@
 is_global = true
 build_property.RootNamespace = DbAutoInsert
-build_property.ProjectDir = C:\Users\aa\Downloads\DbAutoInsert\
+build_property.ProjectDir = C:\Users\aa\Desktop\DbAutoInsert\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.CsWinRTUseWindowsUIXamlProjections = false

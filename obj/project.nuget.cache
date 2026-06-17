@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c8RdN7COGoU=",
+  "dgSpecHash": "3KyPnE9azvM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj",
+  "projectFilePath": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aa\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512",
     "C:\\Users\\aa\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

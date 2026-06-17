@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj": {}
+    "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj": {
+    "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj",
+        "projectUniqueName": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
         "projectName": "DbAutoInsert",
-        "projectPath": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj",
+        "projectPath": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
         "packagesPath": "C:\\Users\\aa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\obj\\",
+        "outputPath": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 25.2\\Components\\Offline Packages",
