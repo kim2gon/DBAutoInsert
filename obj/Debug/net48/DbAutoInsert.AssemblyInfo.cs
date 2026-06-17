@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DbAutoInsert")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86a5b67b69e57ab1232bbce7a513ed88dc01ace0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d2e923014ebdf9fd76f3f1fb69d71bac42d4db1")]
 [assembly: System.Reflection.AssemblyProductAttribute("DbAutoInsert")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DbAutoInsert")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
