@@ -1,0 +1,5 @@
+{
+  "CsvDirectory": "csv",
+  "SqlDirectory": "sql",
+  "LogDirectory": "logs"
+}

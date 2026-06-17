@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>                   <!-- 터미널 창 완전 숨김 -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <AssemblyName>DbAutoInsert</AssemblyName>
+    <RootNamespace>DbAutoInsert</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="23.4.0" />
+    <PackageReference Include="CsvHelper"                     Version="33.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 실행 디렉터리에 함께 배포되는 설정 파일들 -->
+    <None Update="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="oracle_connection.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

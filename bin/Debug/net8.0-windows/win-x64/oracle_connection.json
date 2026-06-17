@@ -1,0 +1,8 @@
+{
+  "TnsAlias"          : "DJH",
+  "UserId"            : "dreamer",
+  "Password"          : "dsdvp",
+  "ConnectionTimeout" : 30,
+  "MinPoolSize"       : 1,
+  "MaxPoolSize"       : 10
+}
