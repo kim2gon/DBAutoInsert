@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\",
+  "WorkspaceRootPath": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\providers\\oracleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:providers\\oracleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\core\\csvdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:core\\csvdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\core\\dbengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\core\\dbengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:core\\dbengine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:config.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\providers\\oracleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:providers\\oracleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\core\\csvdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:core\\csvdatareader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:models\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\downloads\\dbautoinsert\\dbautoinsert.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|c:\\users\\aa\\desktop\\dbautoinsert\\dbautoinsert.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}|DbAutoInsert.csproj|solutionrelative:dbautoinsert.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -34,73 +34,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "config.json",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\config.json",
-              "RelativeDocumentMoniker": "config.json",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\config.json",
-              "RelativeToolTip": "config.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-17T00:57:31.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OracleProvider.cs",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Providers\\OracleProvider.cs",
-              "RelativeDocumentMoniker": "Providers\\OracleProvider.cs",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Providers\\OracleProvider.cs",
-              "RelativeToolTip": "Providers\\OracleProvider.cs",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:57:08.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CsvDataReader.cs",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Core\\CsvDataReader.cs",
-              "RelativeDocumentMoniker": "Core\\CsvDataReader.cs",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Core\\CsvDataReader.cs",
-              "RelativeToolTip": "Core\\CsvDataReader.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:56:39.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DbEngine.cs",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Core\\DbEngine.cs",
-              "RelativeDocumentMoniker": "Core\\DbEngine.cs",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Core\\DbEngine.cs",
-              "RelativeToolTip": "Core\\DbEngine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:56:23.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Models\\AppConfig.cs",
-              "RelativeDocumentMoniker": "Models\\AppConfig.cs",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\Models\\AppConfig.cs",
-              "RelativeToolTip": "Models\\AppConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-17T00:55:49.219Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
@@ -115,16 +50,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "config.json",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\config.json",
+              "RelativeDocumentMoniker": "config.json",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\config.json",
+              "RelativeToolTip": "config.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-17T00:57:31.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OracleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Providers\\OracleProvider.cs",
+              "RelativeDocumentMoniker": "Providers\\OracleProvider.cs",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Providers\\OracleProvider.cs",
+              "RelativeToolTip": "Providers\\OracleProvider.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAAIcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T00:57:08.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CsvDataReader.cs",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Core\\CsvDataReader.cs",
+              "RelativeDocumentMoniker": "Core\\CsvDataReader.cs",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Core\\CsvDataReader.cs",
+              "RelativeToolTip": "Core\\CsvDataReader.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAYwCYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T00:56:39.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbEngine.cs",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Core\\DbEngine.cs",
+              "RelativeDocumentMoniker": "Core\\DbEngine.cs",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Core\\DbEngine.cs",
+              "RelativeToolTip": "Core\\DbEngine.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAkwG4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T00:56:23.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppConfig.cs",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Models\\AppConfig.cs",
+              "RelativeDocumentMoniker": "Models\\AppConfig.cs",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\Models\\AppConfig.cs",
+              "RelativeToolTip": "Models\\AppConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-17T00:55:49.219Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "DbAutoInsert.csproj",
-              "DocumentMoniker": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj",
+              "DocumentMoniker": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
               "RelativeDocumentMoniker": "DbAutoInsert.csproj",
-              "ToolTip": "C:\\Users\\aa\\Downloads\\DbAutoInsert\\DbAutoInsert.csproj",
+              "ToolTip": "C:\\Users\\aa\\Desktop\\DbAutoInsert\\DbAutoInsert.csproj",
               "RelativeToolTip": "DbAutoInsert.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-17T00:49:06.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-17T00:49:06.01Z"
             }
           ]
         },
